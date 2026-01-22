@@ -1,2 +1,2 @@
 # JavaScript_Practice
- #JavaScript Logic building
+ # JavaScript Logic building
