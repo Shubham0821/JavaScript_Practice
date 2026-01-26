@@ -18,10 +18,10 @@ function SumOfDigit(number){
 }
 
 
-console.log(SumOfDigit(15)); 
-console.log(SumOfDigit(156));
-console.log(SumOfDigit(456));
-console.log(SumOfDigit(-456)); // NaN Output
+// console.log(SumOfDigit(15)); 
+// console.log(SumOfDigit(156));
+// console.log(SumOfDigit(456));
+// console.log(SumOfDigit(-456)); // NaN Output
 
 // Handle Error 
 
@@ -39,12 +39,29 @@ function SumOfDigit1(number){
   return sumDigit1;
 
 }
-console.log(SumOfDigit1(12));
-console.log(SumOfDigit1(12.6)); // show Error 
-console.log(SumOfDigit1(-456));// Error Show 
+// console.log(SumOfDigit1(12));
+// console.log(SumOfDigit1(12.6)); // show Error 
+// console.log(SumOfDigit1(-456));// Error Show 
 
 
 //code is perfectly working ...
+
+
+// Second Approch 
+
+function SumOfDigit2(InputNumber){
+   let number  = InputNumber;
+  let SumAllNumber = 0;
+   while( number > 0){
+    let lastDigit = number % 10;
+    number = Math.floor(number / 10);
+    SumAllNumber = SumAllNumber + lastDigit; 
+   }
+   return  SumAllNumber;
+
+}
+
+console.log(SumOfDigit2(12));
 
 
 
