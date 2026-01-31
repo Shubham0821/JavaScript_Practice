@@ -24,13 +24,13 @@ if (  !Array ||Array.length === 0 ||!Array.every(el => typeof el === "number")){
 console.log('[1,23,54,2,14,24] ',FindLargestElementAray( [14,5,2,]));
 
 
-// function FindLargestElementAray2(Array){
-//   const MaxNumber = Math.max(14,23,5,21,3,224,);
-//   console.log("Max Element ",MaxNumber);
+function FindLargestElementAray2(Array){
+  const MaxNumber = Math.max(14,23,5,21,3,224,);
+  console.log("Max Element ",MaxNumber);
   
-// }
+}
 
 
-// console.log(" FindLargestElementAray2");
-//  FindLargestElementAray2();
+console.log(" FindLargestElementAray2");
+ FindLargestElementAray2();
 
